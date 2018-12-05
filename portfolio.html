@@ -8,21 +8,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
 </head>
 
-<body>
-    <!--Question on additional styling of bootstrap elements-->
-    <!--Navigation Bar-->
-    <nav class="nav nav-pills flex-column flex-sm-row">
-        <a class="flex-sm-fill text-sm-center nav-link" href="#">Contact</a>
-        <a class="flex-sm-fill text-sm-center nav-link" href="#">Portfolio</a>
-        <a class="flex-sm-fill text-sm-center nav-link" href="#">About</a>
-    </nav>
-    <!--The Container-->
-    <div class="container">
-
+<header>
+    <!--Header-->
+    <div class="head">
+        <!--Row 1-->
+        <div class="row first justify-content-md-center headcontent">
+            <div class="col-md-auto name">
+                <h4>Nicole Wilsey Starr</h1>
+            </div>
+            <!--Navigation Bar-->
+            <nav class="nav nav-pills flex-column flex-sm-row">
+                <a class="navtabs text-sm-center nav-link col-md-auto" href="index.html">About</a>
+                <a class="navtabs text-sm-center nav-link col-md-auto" href="portfolio.html">Portfolio</a>
+                <a class="navtabs text-sm-center nav-link col-md-auto" href="contact.html">Contact</a>
+            </nav>
+        </div>
     </div>
+</header>
+
+<body>
+
+    <div class="container">
+        <h1>Portfolio</h1>
+
+        <div class="row" id="box-search">
+            <!--Row One-->
+
+            <!--Column One-->
+            <div class="col-md-auto">
+                <div class="thumbnail text-center">
+                    <a href="#"><img src="images/wireframepic.png" title="Placeholder" class="img-responsive">
+                        <div class="caption">
+                            <h2>Wireframe Assignment</h2>
+                        </div>
+                </div>
+            </div>
+
+
+            <!--Column Two-->
+
+            <div class="col-md-auto">
+                    <div class="thumbnail text-center">
+                        <a href="#"><img src="images/wireframepic.png" title="Placeholder" class="img-responsive">
+                            <div class="caption">
+                                <h2>Wireframe Assignment</h2>
+                            </div>
+                    </div>
+                </div>
+
+            <!--Column Three-->
+
+            <div class="col-md-auto">
+                    <div class="thumbnail text-center">
+                        <a href="#"><img src="images/wireframepic.png" title="Placeholder" class="img-responsive">
+                            <div class="caption">
+                                <h2>Wireframe Assignment</h2>
+                            </div>
+                    </div>
+                </div>
+
+
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="push"></div>
+    <footer>
+        <div class="footercontainer">
+            Copyright ©
+        </div>
+    </footer>
 </body>
 
 </html>
