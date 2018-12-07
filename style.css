@@ -118,13 +118,15 @@ fieldset{
 
 .thumbnail {
     position: relative;
+    padding: 10px
 }
 
 .caption {
     position: absolute;
-    top: 90%;
+    top: 85%;
     left: 0;
     width: 100%;
+    /*Can't get the teal background to work properly*/
 }
 
 h2{
@@ -151,18 +153,20 @@ footer{
 }
 
 /*Sticky Footer*/
+/*Works on every page except the portfolio page*/
+
 html,
 body {
   height: 100%;
 }
 
 .wrapper {
-
   min-height: 100%;
-  margin: 0 auto -105px;
+  margin: 0 auto;
 }
 
 footer,
 .push {
   height: 105px;
+  bottom: 0px;
 }
